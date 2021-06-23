@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=E:/STM32_SensorWorkSpace/MQTT/mqtt/Inc
+HeaderPath=E:/STM32_SensorWorkSpace/MQTT/mqtt/新建文件夹/STM32-ESP8266-MQTT/Inc
 HeaderFiles=gpio.h;dma.h;sys.h;usart.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=E:/STM32_SensorWorkSpace/MQTT/mqtt/Src
+SourcePath=E:/STM32_SensorWorkSpace/MQTT/mqtt/新建文件夹/STM32-ESP8266-MQTT/Src
 SourceFiles=gpio.c;dma.c;sys.c;usart.c;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

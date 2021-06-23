@@ -46,7 +46,7 @@ typedef struct
 } MQTTString;
 typedef struct mqtt_client {
 	uint8_t                     mqtt_stat;
-	char                        *mqtt_client_id;
+	uint8_t                        *mqtt_client_id;
 	uint8_t                     *mqtt_read_buf;
   uint8_t                     *mqtt_write_buf;
 	uint8_t                     *mqtt_rec_topic_buf;
