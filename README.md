@@ -12,9 +12,13 @@
 
 
 void USER_UART_IDLECallback(UART_HandleTypeDef *huart)
+
 {
+
     dma_data_length = (BUFFER_SIZE - __HAL_DMA_GET_COUNTER(&hdma_usart2_rx));   //计算接收到的数据长度
+    
 }
+
 void USER_UART_IRQHandler(UART_HandleTypeDef *huart)
 {
     if(USART2 == huart->Instance)                                   //判断是否是串口1（！此处应写(huart->Instance == USART1)
